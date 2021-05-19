@@ -1,0 +1,123 @@
+/*OVERALL*/
+body{
+    background-color: black;
+}
+
+/*LOGO AND NAVIGATION BAR*/
+header{
+    background-color: whitesmoke;
+    background-image: url(../Images/Logo/buningvisionlogo.jpg);
+    border-bottom: 15px solid whitesmoke;
+}
+
+.NavigationBar{
+    position: static;
+}
+
+.NavigationBar a{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.NavigationBar a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/*MAIN NEWS*/
+.LatestNews{
+    border: 30px solid transparent;
+    border-image: url(../Images/Borderimage2.png) 30 stretch;
+
+    background-image: url(../Images/Newsrotation/unsaneeye2.png);
+    background-color: whitesmoke;
+}
+
+
+/*ARROWS*/
+.arrowsWhite{
+    display: none;
+    visibility: hidden;
+}
+
+
+/*OVERALL INFORMATION*/
+.OverallInformation a:hover{
+    color: blue;
+}
+
+.OverallInformation p {
+    color:black;
+    padding: 0px 40px 0px 40px;
+}
+
+.OverallInformation li{
+    color:black;
+    padding: 0px 40px 0px 20px;
+}
+
+.OverallInformation ul{
+    color:black;
+}
+
+.OverallInformation h3{
+    color:black;
+}
+
+.AboutBurningVisons{
+    width: 100vw;
+    margin: 20px 20px 0px 20px;
+
+    background-color: whitesmoke;
+    border: 10px solid black;
+}
+
+.SocialMedia{
+    width: 100vw;
+    margin: 20px 20px 0px 20px;
+
+    background-color: whitesmoke;
+    border: 10px solid black;
+}
+
+.SocialMedia figure{
+    margin-left: 50px;
+}
+
+.SocialMedia img{
+    width: 40px;
+    height: 40px;
+}
+
+.SocialMedia a{
+    color:black;
+    margin-left: 50px;
+}
+
+.AboutUnsane{
+    width: 100vw;
+    margin: 20px 20px 0px 20px;
+
+    background-color: whitesmoke;
+    border: 10px solid black;
+}
+
+.AboutUnsane a{
+    color: black;
+    text-decoration: overline black;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: whitesmoke;
+    background-image: url(../Images/Logo/onlylogoburningvisions.jpg);
+
+    border: 25px solid whitesmoke;
+}
+
+footer p{
+    text-align: center;
+    color: black;
+}

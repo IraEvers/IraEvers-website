@@ -109,7 +109,7 @@ header h1.welcomeText2{
 
 
 /*------------------------------------------------------------DROPDOWN GAMES NAVBAR*/
-.gameNavDropdown{
+.portfolioNavDropdown{
     font-family: Overhaul;
     text-decoration: none;
     font-size: 20px;
@@ -127,17 +127,17 @@ header h1.welcomeText2{
     cursor: pointer;
 }
 
-.gameNavDropdown:hover{
+.portfolioNavDropdown:hover{
     color: black;
     background-color: whitesmoke;
 }
 
-.gameNavDropdown:active{
+.portfolioNavDropdown:active{
     color: whitesmoke;
     background-color: grey;
 }
 
-.gameNavDropdownContent{
+.portfolioNavDropdownContent{
     width: 200px;
 
     display: none;
@@ -149,7 +149,7 @@ header h1.welcomeText2{
     position: absolute;
 }
 
-.gameNavDropdownContent p{
+.portfolioNavDropdownContent p{
     font-family: DeadSecretary;
     color: whitesmoke;
     font-size: 24px;
@@ -163,18 +163,18 @@ header h1.welcomeText2{
     padding: 18px 16px 18px 16px;
 }
 
-.gameNavDropdownContent a{
+.portfolioNavDropdownContent a{
     display: flex;
     justify-content:flex-end;
 
     padding: 18px 16px 18px 16px;
 }
 
-.gameNavDropdown:hover+.gameNavDropdownContent{
+.portfolioNavDropdown:hover+.portfolioNavDropdownContent{
     display: flex;
 }
 
-.gameNavDropdownContent:hover{
+.portfolioNavDropdownContent:hover{
     display: flex;
 }
 
@@ -216,7 +216,7 @@ footer figcaption{
 
 footer figcaption:hover{
     transition: color 2s;
-    color: darkred;
+    color: #80340e;
 }
 
 
@@ -226,7 +226,7 @@ main.introPage{
     height: 100vh;
 
     background-image: url(../IntroPageImages/BackrgoundIntroNoText.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -245,7 +245,7 @@ section.dreamQuote{
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 1000px;
+    width: 980px;
     top: 260px;
     left: -330px;
 }

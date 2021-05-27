@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+/*font-family: 'Noto Serif SC', serif;*/
+
+@font-face {
+    font-family: 'Modern No. 20';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts/MOD20.woff') format('woff');
+}

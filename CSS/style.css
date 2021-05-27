@@ -295,6 +295,8 @@ h1:hover, h3:hover, p:hover{
 
     background-color: #faeb89; 
     border-radius: 50%;
+    
+    z-index: 2;
 }
 
 .btnExp{

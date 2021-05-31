@@ -219,6 +219,36 @@ footer figcaption:hover{
     color: #faeb89;
 }
 
+.contactInfo p{
+    display: flex;
+    /*    padding-top: 15px;*/
+
+    color: whitesmoke;
+    font-family: 'Modern No. 20';
+    font-size: 18px;
+
+    transition: color 2s;
+}
+
+.contactInfo p:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.contactInfo a{
+    display: flex;
+    /*    padding-top: 15px;*/
+
+    color: whitesmoke;
+    font-family: 'Modern No. 20';
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contactInfo a:hover{
+    color: skyblue;
+}
+
 
 /*-------------------------------------------------------------------------INTRO PAGE*/
 main.introPage{
@@ -348,6 +378,7 @@ h1:hover, h3:hover, p:hover{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     width: 80vw;
 }
@@ -377,7 +408,7 @@ aside.left{
     width: 20vw;
 
     box-shadow: 5vw 2vw 0px 1vw rgba(250,235,215,1);
-    z-index: 1
+    z-index: 3;
 }
 
 .externallinksAbout h2{
@@ -406,6 +437,7 @@ aside.left{
     margin: 8vw 0px 0px 4vw;
 
     box-shadow: -6vw -5vw 0px 2vw rgba(219,177,158,1);
+    z-index: 2;
 }
 
 .wrapLinks{
@@ -455,7 +487,7 @@ aside.right{
 
     background-color: rgba(153,84,51);
 
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     margin: 0px 0px 0px 100px;
 
     box-shadow: -5vw -2vw 0px 0.2vw rgba(102,102,102,0.7);
@@ -484,7 +516,7 @@ aside.right{
 .maininformationAbout h1{
     color: whitesmoke;
     font-size: 100px;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 0px 0px;
 
     transition: color 2s;
 }
@@ -563,6 +595,65 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
     color: #faeb89;
     background-color: rosybrown;
     transition: color 10s;
+}
+
+.contactInfoABout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 30vw;
+    height: 10vh;
+
+    background-color: rgb(246,210,198);
+
+    padding: 40px 20px;
+    margin: 20px 7vw 40px 0px;
+
+    box-shadow: 7vw -8vh 0px 3vw rgba(198,153,153,1);
+    z-index: 1;
+}
+
+.contactInfoABout p{
+    display: flex;
+
+    color: black;
+    font-family: 'Modern No. 20';
+    font-size: 20px;
+
+    transition: color 2s;
+}
+
+.contactInfoAbout p:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.contactInfoAbout a{
+    display: flex;
+    /*    padding-top: 15px;*/
+
+    color: black;
+    font-family: 'Modern No. 20';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contactInfoABout a:hover{
+    color: skyblue;
+}
+
+.Number{
+    box-shadow: 1vw -23vh 0px 4vw rgba(200,116,108,1);
+}
+
+.Email p{
+    box-shadow: -6vw -8vh 0px 1.5vw rgba(139,69,19,1);
+}
+
+.Adress{
+    box-shadow: 2vw 8vh 0px 1vw rgba(233,217,216,1);
 }
 
 

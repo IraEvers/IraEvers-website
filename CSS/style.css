@@ -85,7 +85,7 @@ header h1.welcomeText2{
 }
 
 .NavigationBar a{
-    font-family: Overhaul;
+    font-family: 'Modern No. 20';
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -110,7 +110,7 @@ header h1.welcomeText2{
 
 /*------------------------------------------------------------DROPDOWN GAMES NAVBAR*/
 .portfolioNavDropdown{
-    font-family: Overhaul;
+    font-family: 'Modern No. 20';
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -150,7 +150,7 @@ header h1.welcomeText2{
 }
 
 .portfolioNavDropdownContent p{
-    font-family: DeadSecretary;
+    font-family: 'Modern No. 20';
     color: whitesmoke;
     font-size: 24px;
     font-style: italic;
@@ -189,9 +189,9 @@ footer{
     max-height: 120px;
     height: 30vh;
 
-    background-color: black;
+    background-color: #80340e;
 
-    border: 15px solid black;
+    border: 15px solid #80340e;
 }
 
 footer img{
@@ -203,7 +203,7 @@ footer figcaption{
     justify-content: center;
     width: 80%;
 
-    font-family: Overhaul;
+    font-family: 'Modern No. 20';
     font-size: 18px;
     text-align: center;
 
@@ -216,7 +216,7 @@ footer figcaption{
 
 footer figcaption:hover{
     transition: color 2s;
-    color: #80340e;
+    color: #faeb89;
 }
 
 
@@ -295,7 +295,7 @@ h1:hover, h3:hover, p:hover{
 
     background-color: #faeb89; 
     border-radius: 50%;
-    
+
     z-index: 2;
 }
 
@@ -332,58 +332,18 @@ h1:hover, h3:hover, p:hover{
 }
 
 /*-------------------------------------------------------------------------ABOUT*/
-.backgroundFounderIraEvers{
-
+.backgroundAboutMe{
+    background-color: #e8beab;
 }
 
-.founderIraEvers{
+.aboutMe{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    margin: 30px 0px;
 }
 
-.founderIraEvers p{
-    display: flex;
-    padding-top: 15px;
-
-    color: whitesmoke;
-    font-family: Overhaul;
-    font-size: 17px;
-    text-align: justify;
-    text-indent: 10px;
-
-    transition: color 2s;
-}
-
-.founderIraEvers p:hover{
-    color: darkred;
-    transition: color 10s;
-}
-
-.founderIraEvers a{
-    font-family: Overhaul;
-
-    text-decoration: overline whitesmoke;
-    font-size: 18px;
-
-    margin: 10px 0px;
-    display: flex;
-
-    color:whitesmoke;
-
-    transition: color 2s;
-}
-
-.founderIraEvers a:hover{
-    color: darkred;
-    text-decoration: overline darkred;
-    transition: color 10s;
-}
-
-.borderboxIraevers{
+.borderboxAbout{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -392,74 +352,217 @@ h1:hover, h3:hover, p:hover{
     width: 80vw;
 }
 
+aside.left, aside.right{
+    padding: 40 0px;
+}
+
+aside.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    width: 35vw;
+}
+
 .iraprofilepic{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     background-color: black;
+
     padding: 20px;
 
-    width: 30vw;
+    width: 20vw;
+
+    box-shadow: 5vw 2vw 0px 1vw rgba(250,235,215,1);
+    z-index: 1
 }
 
-.iraprofilepic figcaption{
-    font-family: Overhaul;
-    font-size: 20px;
+.externallinksAbout h2{
     color: whitesmoke;
+    font-size: 40px;
+    padding: 10px 0px 20px 0px;
+
     transition: color 2s;
 }
 
-.iraprofilepic figcaption:hover{
-    color: darkred;
+.maininformationAbout h1:hover, .externallinksAbout h2:hover{
+    color: #faeb89;
     transition: color 10s;
 }
 
-.informationIra{
+.externallinksAbout{
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
 
-    max-width: 40vw;
+    width: 30vw;
+
+    background-color: rgb(94,58,12);
+
+    padding: 20px;
+    margin: 8vw 0px 0px 4vw;
+
+    box-shadow: -6vw -5vw 0px 2vw rgba(219,177,158,1);
 }
 
-.informationIra h2, .informationIra h3{
+.wrapLinks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+.externallinksAbout a{
+    font-family: 'Modern No. 20';
+
+    text-decoration: none;
+    font-size: 18px;
+
+    margin: 10px 0px;
+    display: flex;
+
+    color:whitesmoke;
+}
+
+.externallinksAbout a:hover{
+    color: #faeb89;
+
+    transition: color 10s;
+}
+
+.externallinksAbout a:nth-child(2n+1){
+    justify-content: flex-end;
+}
+
+aside.right{
+    display: flex;
+    flex-direction: column;
+
+    width: 35vw;
+    overflow: hidden;
+}
+
+.maininformationAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 25vw;
+    max-height: 40vw;
+
+    background-color: rgba(153,84,51);
+
+    padding: 20px;
+    margin: 0px 0px 0px 100px;
+
+    box-shadow: -5vw -2vw 0px 0.2vw rgba(102,102,102,0.7);
+}
+
+.maininformationAbout p{
+    display: flex;
+    padding-top: 15px;
+
     color: whitesmoke;
-    font-size: 60px;
-    padding: 10px 0px 20px 0px;
+    font-family: 'Modern No. 20';
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 10px;
+
+    max-width: 15vw;
+
+    transition: color 2s;
 }
 
-.informationIra h2:hover, .informationIra h3:hover{
-    color: darkred;
+.maininformationAbout p:hover{
+    color: #faeb89;
     transition: color 10s;
 }
 
-.maininformationIra{
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    background-color: black;
-    padding: 20px;
+.maininformationAbout h1{
+    color: whitesmoke;
+    font-size: 100px;
+    padding: 10px 0px 20px 0px;
+
+    transition: color 2s;
 }
 
-.maininformationIra .diplomaProfiles, .maininformationIra .quotationSocrates{
-    display: flex;
-    justify-content: center;
-
-    font-size: 15px;
-    font-style: italic;
-    text-align: center;
-}
-
-.externallinksIra{
+aside.right Blockquote{
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 40vw;
-    background-color: black;
+    justify-content: center;
 
-    padding: 20px;
-    margin: 20px 0px;
+    text-align: center;
+
+    background-color: whitesmoke;
+
+    max-width: 25vw;
+
+    padding: 40px 20px 20px 20px;
+    margin-top: 5vh;
+
+    box-shadow: 5vw 0px 0px 1.5vw rgba(199,150,127,1);
+    z-index: 1;
+}
+
+aside.right Blockquote q{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    transition: color 2s;
+}
+
+aside.right Blockquote p{
+    text-align: right;
+
+    text-indent: 0px;
+    color: black;
+    font-size: 25px;
+
+    padding: 10px 0px 0px 0px;
+
+    transition: color 2s;
+}
+
+aside.right Blockquote p:hover, aside.right Blockquote q:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.buttonsPostioning{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    max-width: 30vw;
+}
+
+.btnResume{
+    text-align: center;
+
+    color:whitesmoke;
+    background-color: #e9967a;
+    text-decoration: none;
+    font-family: 'Modern No. 20';
+
+    font-size: 20px;
+
+    max-width: 60px;
+    max-height: 100px;
+
+    padding: 30px;
+    margin: 40px 0px;  
+
+    box-shadow: 0.5vw 10px 0px 5vw rgba(244,197,184,1);
+}
+
+.btnResume:hover{
+    color: #faeb89;
+    background-color: rosybrown;
+    transition: color 10s;
 }
 
 

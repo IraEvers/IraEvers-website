@@ -20,7 +20,6 @@ h1, h2, h3{
     color: #80340e;
     font-family: 'Modern No. 20';
 
-    font-size: 100px;
     font-weight: 100;
 }
 
@@ -35,7 +34,7 @@ header{
     max-height: 500px;
     max-width: 100vw;
 
-    background-image: url(../IntroPageImages/Favicon.png);
+    background-image: url(../IntroPageImages/FaviconV2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,6 +63,7 @@ header h1.welcomeText2{
     font-size: 150px;
     color: whitesmoke;
 }
+
 
 /*-------------------------------------------------------------------------NAVBAR*/
 
@@ -197,7 +197,7 @@ footer img{
 footer figcaption{    
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 
     font-family: 'Modern No. 20';
     font-size: 18px;
@@ -313,8 +313,8 @@ h1:hover, h3:hover, p:hover{
     display: flex;
 
     position: absolute;
-    top: 44.4vh;
-    left: 35.25vw;
+    top: 44.85vh;
+    left: 35.55vw;
 
     width: 111px;
     height: 111px;
@@ -356,6 +356,7 @@ h1:hover, h3:hover, p:hover{
     align-self: center;
     height: 95vh;
 }
+
 
 /*-------------------------------------------------------------------------ABOUT*/
 .backgroundAboutMe{
@@ -447,6 +448,7 @@ aside.left{
 
     text-decoration: none;
     font-size: 18px;
+    line-height: 0.2;
 
     margin: 10px 0px;
     display: flex;
@@ -655,101 +657,205 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
 }
 
 
-/*-------------------------------------------------------------------------Art*/
-.backgroundMerch{
+/*-------------------------------------------------------------------------Portfolio*/
+.backgroundBox{
 
 }
 
-.Merch{
-    max-width: 100vw;
+.backgroundBox h1, .backgroundBox h2, .backgroundBox h3{
+    color: navajowhite;
+
+    font-family: 'Modern No. 20';
+    transition: color 2s;
 }
 
-.MerchBox{
+.backgroundBox h1{
+    margin: 25px 0px;
+    font-size: 120px
+}
+
+.backgroundBox h2{
+    margin: 20px 0px;
+    font-size: 80px
+}
+
+.backgroundBox h3{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.backgroundBox h1:hover, .backgroundBox h2:hover, .backgroundBox h3:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.backgroundBox p{
+    text-align: center;
+    color: navajowhite;
+    font-size: 25px;
+
+    padding: 10px 0px 0px 0px;
+    margin-top: 10px;    
+
+    transition: color 2s;
+}
+
+.backgroundBox p:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.borderbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
 
     max-width: 100vw;
+
+    margin: 40px 0px;;
 }
 
 
-/*--------------------------------------------------MERCH > PICTURES*/
+/*--------------------------------------------------PICTURES*/
 .pictures{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
 
-    width: 80%;
+    width: 70%;
 }
 
 .pictures img{
-    width: 400px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     margin: 10px;
     padding: 10px;
+    transition: 2s;
+
+    object-fit: cover;
+    object-position: center;
 }
 
 .pictures img:hover{
-    opacity: 0.6;
+    opacity: 0.7;
+    width: 400px;
+    height: 400px;
     transition: 2s;
 }
 
+.pictures figcaption{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
-/*-------------------------------------------------------------------------SOUND?CODE?PROTOTYPINGPROJECTS*/
-.backgroundSupport{
+    font-family: 'Modern No. 20';
+    color: navajowhite;
+    margin: 0px 0px 30px 0px;
+    font-size: 25px;
+    transition: color 2s;
+}
+
+.pictures figcaption:hover{
+    color: #faeb89;
+    transition: color 10s;
+}
+
+
+/*--------------------------------------------------PortofolioNavBars*/
+.NavigationBarPortfolio{
+    font-size: 0px;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    position: static;    
+}
+
+.NavigationBarPortfolio a{
+    font-family: 'Modern No. 20';
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    color: whitesmoke;
+
+    background-color: #80340e;
+
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 1px rgba(232,190,171,0.3);
+}
+
+.NavigationBarPortfolio a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.NavigationBarPortfolio a:active{
+    color: whitesmoke;
+    background-color: grey;
+}
+
+
+/*-------------------------------------------------------------------------ErrorPage*/
+.backgroundError{
 
 }
 
-.Support{
+.Error{
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
 }
 
-.Support h3, .Support h2, .Support h1{
+.Error h3, .Error h2, .Error h1{
+    font-family: 'Modern No. 20';
     margin-top: 45px;
+    transition: color 2s;
 }
 
-.Supportarticle{
+.Errortarticle{
     width: 100%;
 
     padding-bottom: 25px;
 }
 
-.Supportarticle h2{
-    font-size: 50px;
-    transition: color 2s;
+.Error h1{
+    font-size: 80px
 }
 
-.Supportarticle h2:hover{
-    color: darkred;
+.Errortarticle h2{
+    font-size: 50px;
+}
+
+.Error h2:hover, .Error h1:hover{
+    color: #faeb89;
     transition: color 10s;
 }
 
-.Supportarticle h3 a{
-    font-family: Overhaul;
+.Errortarticle a{
+    font-family: 'Modern No. 20';
 
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 30px;
 
-    color: black;
-    text-decoration: overline black;
+    color: whitesmoke;
+    text-decoration: none;
+}
 
+.Errortarticle a:hover{
+    color: skyblue;
     transition: color 2s;
 }
 
-.Supportarticle h3 a:hover{
-    color: darkred;
-    text-decoration: overline darkred;
-    transition: color 10s;
-}
-
-.videogameUnsane{
-    height: 100vh;
-}
 
 
 

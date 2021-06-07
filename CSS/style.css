@@ -309,21 +309,7 @@ h1:hover, h3:hover, p:hover{
     transition: color 10s;
 }
 
-.ButtonExplore{
-    display: flex;
 
-    position: absolute;
-    top: 44.85vh;
-    left: 35.55vw;
-
-    width: 111px;
-    height: 111px;
-
-    background-color: #e8beab; 
-    border-radius: 50%;
-
-    z-index: 2;
-}
 
 .btnExp{
     text-decoration: none;
@@ -339,6 +325,22 @@ h1:hover, h3:hover, p:hover{
     margin: 10px;
 }
 
+.ButtonExplore{
+    display: flex;
+
+    position: absolute;
+    top: 44.85vh;
+    left: 35.55vw;
+
+    max-width: 111px;
+    max-height: 111px;
+
+    background-color: #e8beab; 
+    border-radius: 50%;
+
+    z-index: 2;
+}
+
 .btnExp:hover{
     box-shadow: 0px 0px 100px 10px rgba(0,0,0,1);
     border-radius: 50%;
@@ -346,13 +348,14 @@ h1:hover, h3:hover, p:hover{
 
 .Arrows{
     display: flex;
-    position: absolute;
-    top: 2.5vh;
-    left: 34.7vw;
+
 }
 
 .Arrows img{
-    display: flex;
+    position: absolute;
+
+    top: 2.5vh;
+    left: 34.7vw;
     align-self: center;
     height: 95vh;
 }

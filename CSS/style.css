@@ -329,8 +329,10 @@ h1:hover, h3:hover, p:hover{
     display: flex;
 
     position: absolute;
-    top: 44.85vh;
-    left: 35.55vw;
+    
+    top: 50%;
+    left: 38%;
+    transform: translate(-45%, -50%);
 
     max-width: 111px;
     max-height: 111px;
@@ -348,15 +350,17 @@ h1:hover, h3:hover, p:hover{
 
 .Arrows{
     display: flex;
-
 }
 
 .Arrows img{
     position: absolute;
 
-    top: 2.5vh;
-    left: 34.7vw;
-    align-self: center;
+    object-position: center;
+
+    top: 50%;
+    left: 38%;
+    transform: translate(-45%, -50%);
+
     height: 95vh;
 }
 
@@ -462,7 +466,7 @@ aside.left{
 .externallinksAbout a:hover{
     color: #faeb89;
 
-    transition: color 10s;
+    transition: color 2s;
 }
 
 .externallinksAbout a:nth-child(2n+1){
@@ -483,8 +487,8 @@ aside.right{
     justify-content: center;
     align-items: center;
 
-    width: 25vw;
-    max-height: 40vw;
+    min-width: 25vw;
+    min-height: 20vh;
 
     background-color: rgba(153,84,51,0.7);
 
@@ -533,7 +537,7 @@ aside.right Blockquote{
     background-color: rgba(245,245,245,0.5);
 
     max-width: 25vw;
-    height: 11vh;
+    min-height: 11vh;
 
 
     padding: 40px 20px 20px 20px;
@@ -558,6 +562,7 @@ aside.right Blockquote p{
     font-size: 25px;
 
     padding: 10px 0px 0px 0px;
+    margin: 10px 0px;
 
     transition: color 2s;
 }
@@ -605,6 +610,7 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     width: 30vw;
     height: 11vh;

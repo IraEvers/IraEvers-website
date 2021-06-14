@@ -261,19 +261,24 @@ section.text{
     display: flex;
     flex-direction: column;
     position: absolute;
+    flex-wrap: wrap;
+
     right: 18vw;
     top: 13.5vh;
-    line-height: 1.1;
 
+    line-height: 1.1;
 }
 
 section.dreamQuote{
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 980px;
-    top: 260px;
-    left: -330px;
+    flex-wrap: wrap;
+
+    width: 50vw;
+
+    top: 27vh;
+    left: -17.2vw;
 }
 
 .introPage h1{
@@ -329,7 +334,7 @@ h1:hover, h3:hover, p:hover{
     display: flex;
 
     position: absolute;
-    
+
     top: 50%;
     left: 38%;
     transform: translate(-45%, -50%);
@@ -612,8 +617,8 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
     justify-content: space-between;
     flex-wrap: wrap;
 
-    width: 30vw;
-    height: 11vh;
+    min-width: 30vw;
+    min-height: 11vh;
 
     background-color: rgb(246,210,198);
 
@@ -622,6 +627,10 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
 
     box-shadow: 8vw -10vh 0px 4vw rgba(198,153,153,0.5);
     z-index: 1;
+}
+
+.contactInfoABout div{
+    padding: 0px 10px;   
 }
 
 .contactInfoABout p{

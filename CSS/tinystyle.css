@@ -19,36 +19,42 @@ section.dreamQuote{
 }
 
 .introPage h1{
-    font-size: 120px;
+    font-size: 90px;
 }
 
 .introPage h3{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .introPage p{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .ButtonExplore{
-    left: 38%;
+     left: 33%;
     transform: translate(-45%, -50%);
 
-    max-width: 111px;
-    max-height: 111px;
+    max-width: 90px;
+    max-height: 90px;
 }
 
-
 .btnExp{
-    font-size: 27px;
+    font-size: 20px;
     line-height: 40px;
-
-    padding-top: 10px;
-    margin: 10px;
+    padding-top: 0px;
+    margin: 5px;
 }
 
 .Arrows img{
     top: 50%;
-    left: 38%;
+    left: 33%;
     transform: translate(-45%, -50%);
 }
+
+
+
+
+
+
+
+

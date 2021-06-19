@@ -1,6 +1,6 @@
-@import url(smallfootertext.css) screen and (max-width: 750px);
-@import url(smallstyle.css) screen and (max-width: 600px);
-@import url(largestyle.css) screen and (min-width: 601px);
+@import url(tinystyle.css) screen and (max-width: 1300px);
+@import url(smallstyle.css) screen and (min-width: 1301px) and (max-width: 1560px);
+@import url(largestyle.css) screen and (min-width: 1561px);
 @import url(fonts.css);
 
 *{
@@ -254,8 +254,6 @@ main.introPage{
     height: 100vh;
 
     background-image: url(../IntroPageImages/BackrgoundIntroNoText-Arrows.png);
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -264,11 +262,6 @@ section.text{
     flex-direction: column;
     position: absolute;
     flex-wrap: wrap;
-
-    right: 18vw;
-    top: 13.5vh;
-
-    line-height: 1.1;
 }
 
 section.dreamQuote{
@@ -276,15 +269,9 @@ section.dreamQuote{
     flex-direction: column;
     position: absolute;
     flex-wrap: wrap;
-
-    width: 50vw;
-
-    top: 27vh;
-    left: -17.2vw;
 }
 
 .introPage h1{
-    font-size: 120px;
     color: whitesmoke;
     text-align: left;
 
@@ -292,7 +279,6 @@ section.dreamQuote{
 }
 
 .introPage h3{
-    font-size: 70px;
     color: whitesmoke;
     text-align: left;
 
@@ -301,7 +287,6 @@ section.dreamQuote{
 }
 
 .introPage p{
-    font-size: 45px;
     color: whitesmoke;
     font-family: 'Modern No. 20';
     text-align: left;
@@ -316,38 +301,26 @@ h1:hover, h3:hover, p:hover{
     transition: color 10s;
 }
 
-
-
-.btnExp{
-    text-decoration: none;
-    text-align: center;
-
-    font-size: 27px;
-    font-weight: 500;
-    color: black;
-    font-family: 'Modern No. 20';
-    line-height: 40px;
-
-    padding-top: 10px;
-    margin: 10px;
-}
-
 .ButtonExplore{
     display: flex;
 
     position: absolute;
 
     top: 50%;
-    left: 38%;
-    transform: translate(-45%, -50%);
-
-    max-width: 111px;
-    max-height: 111px;
 
     background-color: #e8beab; 
     border-radius: 50%;
 
     z-index: 2;
+}
+
+.btnExp{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+
+    color: black;
+    font-family: 'Modern No. 20';
 }
 
 .btnExp:hover{
@@ -363,10 +336,6 @@ h1:hover, h3:hover, p:hover{
     position: absolute;
 
     object-position: center;
-
-    top: 50%;
-    left: 38%;
-    transform: translate(-45%, -50%);
 
     height: 95vh;
 }

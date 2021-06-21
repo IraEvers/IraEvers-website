@@ -11,7 +11,7 @@
 
 /*-------------------------------------------------------------------------OVERALL*/
 body{
-    background-color: black;
+    background-color: #e8beab;
 }
 
 h1, h2, h3{
@@ -40,7 +40,7 @@ header{
     background-repeat: no-repeat;
 
     background-color: black;
-    border-bottom: 15px solid black;
+    border-bottom: 25px solid black;
 
     overflow: visible;
 }
@@ -78,7 +78,8 @@ header h1.welcomeText2{
     justify-content: center;
 
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 50px;
     /*            position: -webkit-sticky;  safari  */
     position: sticky;
     top: 30px;
@@ -663,26 +664,17 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
     margin: 0px 0px 20px 0px; 
     font-size: 100px; 
 }
-/*
-25
-120
-*/
+
 .backgroundBox h2{
-    margin: 0px 0px;
+    margin: 10px 0px;
     font-size: 70px;
 }
-/*
-20
-80
-*/
+
 .backgroundBox h3{
     margin-top: 30px;
     font-size: 50px;
 }
-/*
-50
-60
-*/
+
 .backgroundBox h1:hover, .backgroundBox h2:hover, .backgroundBox h3:hover{
     color: #faeb89;
     transition: color 10s;
@@ -752,7 +744,7 @@ aside.right Blockquote p:hover, aside.right Blockquote q:hover{
     font-family: 'Modern No. 20';
     /*    color: navajowhite;*/
     color: #80340e;
-    
+
     margin: 0px 0px 30px 0px;
     font-size: 25px;
     transition: color 2s;

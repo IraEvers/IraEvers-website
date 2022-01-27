@@ -18,9 +18,10 @@ h1,
 h2,
 h3 {
     text-align: center;
-    color: #80340e;
+    color: #ffffff;
     font-family: 'Modern No. 20';
     font-weight: 100;
+    font-size: 200px;
 }
 
 
@@ -103,34 +104,6 @@ header {
 }
 
 .Arrowup:active {
-    color: #faeb89;
-}
-
-
-/*-------------------------------------------------------------------------FOOTER*/
-
-footer {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    max-width: 100vw;
-    background-color: #e2a082;
-    border: 15px solid #e2a082;
-}
-
-footer p {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-family: 'Modern No. 20';
-    font-size: 18px;
-    text-align: center;
-    color: whitesmoke;
-    transition: color 2s;
-}
-
-footer p:hover {
-    transition: color 2s;
     color: #faeb89;
 }
 
@@ -423,23 +396,6 @@ aside.right Blockquote q:hover {
     transition: color 10s;
 }
 
-
-/* 
-.backgroundBox p {
-    text-align: center;
-       /* color: navajowhite; 
-    color: #80340e;
-    font-size: 25px;
-    margin-top: 7px;
-    transition: color 2s;
-}
-
-.backgroundBox p:hover {
-    color: #faeb89;
-    transition: color 10s;
-} 
-*/
-
 .borderbox {
     display: flex;
     flex-wrap: wrap;
@@ -458,6 +414,114 @@ aside.right Blockquote q:hover {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.pictures figure {
+    margin: 3vw 0;
+}
+
+.pictures img {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    transition: 2s;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pictures h3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Modern No. 20';
+    color: #b63d00;
+    font-size: 70px;
+    font-weight: 400;
+    transition: color 2s;
+}
+
+.pictures h3:hover {
+    color: #faeb89;
+    transition: color 10s;
+}
+
+
+/*---------------------------------------Coastal Cleanup*/
+
+.Coastal {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100vw;
+    padding-left: 25vw;
+    background-color: #80340ec5;
+}
+
+.pictures .Coastal img {
+    position: relative;
+    width: 27vw;
+    height: 45vh;
+}
+
+.pictures .Coastal img:hover {
+    width: 28vw;
+    height: 46vh;
+    transition: 1s;
+}
+
+.Coastal .Info {
+    position: absolute;
+    right: 38.5vw;
+}
+
+.Coastal .text {
+    position: relative;
+    width: 20vw;
+    top: 9vh;
+    background-color: #a8cfb5ea;
+    box-shadow: 3vw 3.5vh 0px 3vw #a8cfb5ea;
+}
+
+.pictures .Coastal h3 {
+    text-align: start;
+    padding-left: 2vw;
+}
+
+.Coastal p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Modern No. 20';
+    width: 15vw;
+    color: #ffefe7;
+    padding: 1vh 0px 0px 2vw;
+    font-size: 17.5px;
+    transition: color 2s;
+}
+
+.Coastal p:hover {
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.CoastalLink {
+    position: relative;
+    left: 25vw;
+    top: 1vh;
+    width: 9vw;
+    font-family: 'Modern No. 20';
+    font-size: 25px;
+    display: flex;
+    color: #ffffff;
+    background-color: rgb(97, 72, 72);
+    box-shadow: 0vw 4vh 0px 3.5vw rgb(97, 72, 72);
+}
+
+.CoastalLink:hover {
+    color: #000000;
+}
+
+
+/*---------------------------------------Polliword*/
 
 .Polliword {
     display: flex;
@@ -503,7 +567,7 @@ aside.right Blockquote q:hover {
     width: 15vw;
     color: #ffffff;
     padding: 1vh 0px 0px 4vw;
-    font-size: 16px;
+    font-size: 17.5px;
     transition: color 2s;
 }
 
@@ -516,42 +580,49 @@ aside.right Blockquote q:hover {
     position: relative;
     right: 8vw;
     top: 25vh;
-    width: 8vw;
+    width: 9vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
     color: #ffffff;
-    background-color: rgb(97, 72, 72);
-    box-shadow: -5vw 6vh 0px 5vw rgb(97, 72, 72);
+    background-color: #4d6050;
+    box-shadow: -2vw 6vh 0px 3.5vw #4d6050;
 }
 
 .PolliwordLink:hover {
     color: #000000;
 }
 
-.pictures img {
-    width: 350px;
-    height: 350px;
-    margin: 30px;
-    transition: 2s;
-    object-fit: cover;
-    object-position: center;
+
+/*-------------------------------------------------------------------------FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 100vw;
+    background-color: #e2a082;
+    border: 15px solid #e2a082;
 }
 
-.pictures h3 {
+footer p {
     display: flex;
-    align-content: center;
     justify-content: center;
+    width: 100%;
     font-family: 'Modern No. 20';
-    color: #b63d00;
-    font-size: 70px;
-    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
     transition: color 2s;
 }
 
-.pictures h3:hover {
+footer p:hover {
+    transition: color 2s;
     color: #faeb89;
-    transition: color 10s;
+}
+
+.ProjectFooter {
+    margin-top: 15vh;
 }
 
 

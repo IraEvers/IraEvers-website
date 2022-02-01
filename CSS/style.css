@@ -407,7 +407,7 @@ aside.right Blockquote q:hover {
 
 /*--------------------------------------------------PICTURES*/
 
-.pictures {
+.projects {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -415,11 +415,7 @@ aside.right Blockquote q:hover {
     flex-wrap: wrap;
 }
 
-.pictures figure {
-    margin: 4.5vw 0;
-}
-
-.pictures img {
+.projects img {
     width: 350px;
     height: 350px;
     margin: 30px;
@@ -428,7 +424,7 @@ aside.right Blockquote q:hover {
     object-position: center;
 }
 
-.pictures h3 {
+.projects h3 {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -439,7 +435,7 @@ aside.right Blockquote q:hover {
     transition: color 2s;
 }
 
-.pictures h3:hover {
+.projects h3:hover {
     color: #faeb89;
     transition: color 10s;
 }
@@ -447,24 +443,28 @@ aside.right Blockquote q:hover {
 
 /*---------------------------------------Coastal Cleanup*/
 
-.Coastal {
+.projects .Coastal {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
-    width: 100vw;
-    padding-left: 25vw;
+    align-self: flex-start;
+    width: 47vw;
+    height: 70vh;
+    padding-right: 24vw;
+    margin: 4.5vw 0 4.5vw -0.5vw;
     background-color: #80340ec5;
 }
 
-.pictures .Coastal img {
+.projects .Coastal img {
     position: relative;
-    width: 27vw;
-    height: 45vh;
+    width: 32vw;
+    height: 50vh;
+    top: 8vh;
 }
 
-.pictures .Coastal img:hover {
-    width: 28vw;
-    height: 46vh;
+.projects .Coastal img:hover {
+    width: 34vw;
+    height: 52vh;
     transition: 1s;
 }
 
@@ -476,14 +476,16 @@ aside.right Blockquote q:hover {
 .Coastal .text {
     position: relative;
     width: 20vw;
-    top: 9vh;
+    height: 30vh;
+    top: 18vh;
     background-color: #a8cfb5ea;
     box-shadow: 3vw 3.5vh 0px 3vw #a8cfb5ea;
 }
 
-.pictures .Coastal h3 {
+.projects .Coastal h3 {
     text-align: start;
-    padding-left: 2vw;
+    padding-left: 1vw;
+    width: 25vw;
 }
 
 .Coastal p {
@@ -506,7 +508,7 @@ aside.right Blockquote q:hover {
 .CoastalLink {
     position: relative;
     left: 25vw;
-    top: 1vh;
+    top: 10vh;
     width: 9vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
@@ -530,16 +532,17 @@ aside.right Blockquote q:hover {
     width: 70vw;
     height: 70vh;
     padding: 0 2vw 0 10vw;
+    margin: 4vw 0;
     background-color: #d1f0e7c4;
 }
 
-.pictures .Scanimal img {
+.projects .Scanimal img {
     position: relative;
     width: 23vw;
     height: 73vh;
 }
 
-.pictures .Scanimal img:hover {
+.projects .Scanimal img:hover {
     width: 24vw;
     height: 75vh;
     transition: 1s;
@@ -563,7 +566,7 @@ aside.right Blockquote q:hover {
     box-shadow: 0vw 2vh 0px 2.5vw #7a39149c;
 }
 
-.pictures .Scanimal h3 {
+.projects .Scanimal h3 {
     color: #ceecda;
 }
 
@@ -602,7 +605,7 @@ aside.right Blockquote q:hover {
     color: #000000;
 }
 
-.pictures .Scanimal .ScanimalMascot img {
+.projects .Scanimal .ScanimalMascot img {
     position: relative;
     right: 23vw;
     top: -55vh;
@@ -610,34 +613,368 @@ aside.right Blockquote q:hover {
     height: 52vh;
 }
 
-.pictures .Scanimal .ScanimalMascot img:hover {
+.projects .Scanimal .ScanimalMascot img:hover {
     width: 23vw;
     height: 54vh;
     transition: 1s;
 }
 
 
+/*---------------------------------------Shader&Pong*/
+
+
+/* .projects .ShaderPong {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    padding: 0 2vw 0 10vw;
+    margin: 7.5vw 0;
+    background-color: #000000c4;
+} */
+
+.projects .BorderboxShader {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 95vw;
+    height: 70vh;
+    margin: 4vw 0;
+    background-color: #000000c4;
+}
+
+.projects .BorderboxPong {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 80vw;
+    height: 70vh;
+    padding: 0 2vw 0 13vw;
+    margin: 8vw 0 3vw 0;
+    background-color: #290606;
+}
+
+
+/*------------------------PONG OVERAL*/
+
+
+/* .Pong {
+    position: absolute;
+    left: 12vw;
+} */
+
+.Pong {
+    position: absolute;
+}
+
+
+/* .projects .Pong img {
+    position: relative;
+    width: 17vw;
+    height: 48vh;
+}
+
+.projects .Pong img:hover {
+    width: 18vw;
+    height: 50vh;
+    transition: 1s;
+} */
+
+.projects .Pong img {
+    position: relative;
+    width: 23vw;
+    height: 60vh;
+}
+
+.projects .Pong img:hover {
+    width: 24vw;
+    height: 62vh;
+    transition: 1s;
+}
+
+
+/*------------------------PONG 2D*/
+
+
+/* .Pong .Info2D {
+    position: absolute;
+    top: -34vh;
+    left: 18vw;
+} */
+
+.Pong .Info2D {
+    position: absolute;
+    top: -25vh;
+    right: 5vw;
+}
+
+
+/* .Pong .text2D {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 28vh;
+    right: 18vw;
+} */
+
+.Pong .text2D {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    right: 27vw;
+    top: 34vh;
+}
+
+.projects .Pong .text2D h3 {
+    align-self: flex-end;
+    color: #ffffff;
+}
+
+.Pong .text2D p {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    font-family: 'Modern No. 20';
+    color: #ffffff;
+    font-size: 17.5px;
+    transition: color 2s;
+}
+
+.Pong .text2D p:hover {
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.Pong2dLink {
+    display: flex;
+    position: relative;
+    text-align: center;
+    right: -18.5vw;
+    bottom: -8vh;
+    width: 7vw;
+    font-family: 'Modern No. 20';
+    font-size: 25px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: -0.5vw 0.5vh 0px 1vw #ffffff;
+}
+
+.Pong2dLink:hover {
+    color: #9c9c9c;
+}
+
+
+/*------------------------PONG 3D*/
+
+
+/* .Pong .Info3D {
+    position: absolute;
+    top: -14vh;
+} */
+
+.Pong .Info3D {
+    position: absolute;
+    top: -22vh;
+    left: -6vw;
+}
+
+.Pong .text3D {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    left: 26vw;
+    width: 18vw;
+    height: 34vh;
+    top: 58vh;
+}
+
+.projects .Pong .text3D h3 {
+    align-self: flex-start;
+    color: #ffffff;
+}
+
+.Pong .text3D p {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    font-family: 'Modern No. 20';
+    color: #ffffff;
+    font-size: 17.5px;
+    transition: color 2s;
+    width: 15vw;
+}
+
+.Pong .text3D p:hover {
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.Pong3dLink {
+    display: flex;
+    position: relative;
+    text-align: center;
+    right: -1vw;
+    width: 7vw;
+    bottom: -6vh;
+    font-family: 'Modern No. 20';
+    font-size: 25px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0vw 0.5vh 0px 1vw #ffffff;
+}
+
+.Pong3dLink:hover {
+    color: #9c9c9c;
+}
+
+
+/*------------------------SHADER*/
+
+
+/* .Shader {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 12vw;
+    top: -5vh;
+} */
+
+.Shader {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 10vw;
+    top: -5vh;
+}
+
+.projects .BorderboxShader img {
+    position: relative;
+    width: 37vw;
+    height: 52vh;
+    top: 25vh;
+    left: 20vw;
+}
+
+.projects .BorderboxShader img:hover {
+    width: 39vw;
+    height: 53vh;
+    transition: 1s;
+}
+
+
+/* .Shader .InfoShader {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5vh;
+} */
+
+.Shader .InfoShader {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    right: 49vw;
+    top: 14vh;
+}
+
+.Shader .textShader {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7.5vh;
+    width: 25vw;
+    margin-left: 1.75vw;
+    background-color: #d86e319c;
+    box-shadow: 1vw 2vh 0px 1vw #d86e319c;
+}
+
+.projects .Shader h3 {
+    color: #a3d8ee;
+}
+
+.Shader p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Modern No. 20';
+    text-align: start;
+    width: 20vw;
+    margin-left: 2.75vw;
+    padding: 1.5vh 1.5vw 0 1.5vw;
+    color: #ffefe7;
+    font-size: 17.5px;
+    transition: color 2s;
+}
+
+.ShaderPong p:hover {
+    color: #faeb89;
+    transition: color 10s;
+}
+
+.ShaderLink {
+    position: relative;
+    text-align: center;
+    top: 2.5vh;
+    left: 26vw;
+    width: 9vw;
+    font-family: 'Modern No. 20';
+    font-size: 25px;
+    display: flex;
+    color: #ffffff;
+    background-color: #437184;
+    box-shadow: 0vw 0.5vh 0px 1.5vw #437184;
+}
+
+.ShaderLink:hover {
+    color: #1c313a;
+}
+
+
 /*---------------------------------------Polliword*/
 
-.Polliword {
+.projects .Polliword {
     display: flex;
     justify-content: flex-end;
     align-content: center;
-    width: 100vw;
-    padding-right: 25vw;
-    margin-bottom: 10vh;
+    align-self: flex-end;
+    width: 48vw;
+    height: 70vh;
+    padding-left: 22vw;
+    margin: 4.5vw 0.5vw 4.5vw 0;
     background-color: rgba(250, 235, 215, 0.6);
 }
 
-.pictures .Polliword img {
+.projects .Polliword img {
     position: relative;
-    width: 25vw;
-    height: 40vh;
+    width: 34vw;
+    height: 53vh;
+    top: 7vh;
 }
 
-.pictures .Polliword img:hover {
-    width: 26vw;
-    height: 41vh;
+.projects .Polliword img:hover {
+    width: 36vw;
+    height: 54vh;
     transition: 1s;
 }
 
@@ -649,7 +986,7 @@ aside.right Blockquote q:hover {
 .Polliword .text {
     position: relative;
     width: 15vw;
-    top: 9vh;
+    top: 18vh;
     right: 1vw;
     background-color: rgba(184, 120, 74, 0.253);
     box-shadow: 3vw 6vh 0px 5vw rgba(184, 120, 74, 0.253);
@@ -673,13 +1010,13 @@ aside.right Blockquote q:hover {
 }
 
 .PolliwordLink {
+    display: flex;
     position: relative;
     right: 8vw;
     top: 25vh;
     width: 9vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
-    display: flex;
     color: #ffffff;
     background-color: #4d6050;
     box-shadow: -2vw 6vh 0px 3.5vw #4d6050;
@@ -718,56 +1055,5 @@ footer p:hover {
 }
 
 .ProjectFooter {
-    margin-top: 15vh;
+    margin-top: 3vh;
 }
-
-
-/*-------------------------------------------------------------------------ErrorPage*/
-
-
-/* .Error {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.Error h3,
-.Error h2,
-.Error h1 {
-    font-family: 'Modern No. 20';
-    margin-top: 45px;
-    transition: color 2s;
-}
-
-.Errortarticle {
-    width: 100%;
-    padding-bottom: 25px;
-}
-
-.Error h1 {
-    font-size: 80px
-}
-
-.Errortarticle h2 {
-    font-size: 50px;
-}
-
-.Error h2:hover,
-.Error h1:hover {
-    color: #faeb89;
-    transition: color 10s;
-}
-
-.Errortarticle a {
-    font-family: 'Modern No. 20';
-    text-decoration: none;
-    font-size: 30px;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.Errortarticle a:hover {
-    color: skyblue;
-    transition: color 2s;
-} */

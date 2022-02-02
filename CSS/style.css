@@ -311,6 +311,7 @@ aside.right Blockquote q:hover {
     padding: 20px 20px;
     margin: 60px 0px;
     box-shadow: 0.3vw 0px 0px 4vw rgba(244, 197, 184, 0.5);
+    z-index: 2;
 }
 
 .btnResume p {

@@ -201,11 +201,11 @@ aside.left {
     margin: 10px 0px;
     display: flex;
     color: whitesmoke;
-    transition: 2.5s;
+    transition: 2s;
 }
 
 .externallinksAbout a:hover {
-    color: #faeb89;
+    color: #fff3a2;
     transition: 0s;
 }
 
@@ -534,11 +534,11 @@ aside.right Blockquote q:hover {
     color: rgb(255, 233, 212);
     background-color: rgb(97, 72, 72);
     box-shadow: 0vw 4vh 0px 3.5vw rgb(97, 72, 72);
-    transition: 3s;
+    transition: 2s;
 }
 
 .CoastalLink:hover {
-    color: #000000;
+    color: rgb(54, 39, 39);
     transition: 0s;
 }
 
@@ -619,11 +619,11 @@ aside.right Blockquote q:hover {
     color: rgb(255, 233, 212);
     background-color: #ff7300;
     box-shadow: 0vw 0.5vh 0px 2vw #ff7300;
-    transition: 3s;
+    transition: 2s;
 }
 
 .ScanimalLink:hover {
-    color: #000000;
+    color: #8f4000;
     transition: 0s;
 }
 
@@ -788,7 +788,7 @@ aside.right Blockquote q:hover {
     color: #000000;
     background-color: #ffffff;
     box-shadow: -0.5vw 0.5vh 0px 1vw #ffffff;
-    transition: 3s;
+    transition: 2s;
 }
 
 .Pong2dLink:hover {
@@ -856,7 +856,7 @@ aside.right Blockquote q:hover {
     color: #000000;
     background-color: #ffffff;
     box-shadow: 0vw 0.5vh 0px 1vw #ffffff;
-    transition: 3s;
+    transition: 2s;
 }
 
 .Pong3dLink:hover {
@@ -971,11 +971,11 @@ aside.right Blockquote q:hover {
     color: rgb(255, 233, 212);
     background-color: #437184;
     box-shadow: 0vw 0.5vh 0px 1.5vw #437184;
-    transition: 3s;
+    transition: 2s;
 }
 
 .ShaderLink:hover {
-    color: #1c313a;
+    color: #1e3641;
     transition: 0s;
 }
 
@@ -1049,11 +1049,11 @@ aside.right Blockquote q:hover {
     color: rgb(255, 233, 212);
     background-color: #4d6050;
     box-shadow: -2vw 6vh 0px 3.5vw #4d6050;
-    transition: 3s;
+    transition: 2s;
 }
 
 .PolliwordLink:hover {
-    color: #000000;
+    color: #263127;
     transition: 0s;
 }
 

@@ -727,7 +727,7 @@ aside.right Blockquote q:hover {
 
 .Pong .Info2D {
     position: absolute;
-    top: -25vh;
+    top: -26vh;
     right: 5vw;
 }
 
@@ -748,7 +748,7 @@ aside.right Blockquote q:hover {
     align-content: center;
     justify-content: flex-start;
     flex-direction: column;
-    right: 27vw;
+    right: 26vw;
     top: 34vh;
 }
 

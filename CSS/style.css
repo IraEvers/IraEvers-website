@@ -71,6 +71,7 @@ header:hover {
     font-weight: 500;
     color: black;
     margin: 0px 100px;
+    transition: 2s;
 }
 
 
@@ -79,11 +80,13 @@ header:hover {
 } */
 
 .NavigationBar a:hover {
-    color: whitesmoke;
+    color: rgb(255, 233, 212);
+    transition: 0s;
 }
 
 .NavigationBar a:active {
-    color: #faeb89;
+    color: #faeb89af;
+    transition: 0.5s;
 }
 
 

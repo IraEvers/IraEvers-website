@@ -140,11 +140,6 @@ header:hover {
     width: 80vw;
 }
 
-aside.left,
-aside.right {
-    padding: 40 0px;
-}
-
 aside.left {
     display: flex;
     flex-direction: column;
@@ -347,20 +342,7 @@ aside.right Blockquote q:hover {
     padding: 0px 10px;
 }
 
-.contactInfoABout p {
-    display: flex;
-    color: black;
-    font-family: 'Modern No. 20';
-    font-size: 20px;
-    transition: color 2s;
-}
-
-.contactInfoAbout p:hover {
-    color: #faeb89;
-    transition: color 10s;
-}
-
-.contactInfoAbout a {
+.contactInfoABout a {
     display: flex;
     color: black;
     font-family: 'Modern No. 20';
@@ -372,6 +354,19 @@ aside.right Blockquote q:hover {
 .contactInfoABout a:hover {
     color: skyblue;
     transition: 0s;
+}
+
+.contactInfoABout p {
+    display: flex;
+    color: black;
+    font-family: 'Modern No. 20';
+    font-size: 20px;
+    transition: color 2s;
+}
+
+.contactInfoAbout p:hover {
+    color: #faeb89;
+    transition: color 10s;
 }
 
 .Number {

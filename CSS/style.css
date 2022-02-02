@@ -38,9 +38,16 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: black;
-    border-bottom: 25px solid black;
+    background-color: #190707;
+    border-bottom: 25px solid #190707;
     overflow: visible;
+    transition: 2s;
+}
+
+header:hover {
+    background-color: #000000;
+    border-bottom: 25px solid #000000;
+    transition: 2s;
 }
 
 
@@ -191,11 +198,12 @@ aside.left {
     margin: 10px 0px;
     display: flex;
     color: whitesmoke;
+    transition: 2.5s;
 }
 
 .externallinksAbout a:hover {
     color: #faeb89;
-    transition: color 2s;
+    transition: 0s;
 }
 
 .externallinksAbout a:nth-child(2n+1) {
@@ -355,10 +363,12 @@ aside.right Blockquote q:hover {
     font-family: 'Modern No. 20';
     font-size: 20px;
     text-decoration: none;
+    transition: 2s;
 }
 
 .contactInfoABout a:hover {
     color: skyblue;
+    transition: 0s;
 }
 
 .Number {
@@ -371,6 +381,11 @@ aside.right Blockquote q:hover {
 
 .Adress {
     box-shadow: 2vw 10vh 0px 1vw rgba(233, 217, 216, 0.5);
+}
+
+.Adress p:hover {
+    color: skyblue;
+    transition: 0s;
 }
 
 
@@ -513,13 +528,15 @@ aside.right Blockquote q:hover {
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
-    color: #ffffff;
+    color: rgb(255, 233, 212);
     background-color: rgb(97, 72, 72);
     box-shadow: 0vw 4vh 0px 3.5vw rgb(97, 72, 72);
+    transition: 3s;
 }
 
 .CoastalLink:hover {
     color: #000000;
+    transition: 0s;
 }
 
 
@@ -596,13 +613,15 @@ aside.right Blockquote q:hover {
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
-    color: #ffffff;
+    color: rgb(255, 233, 212);
     background-color: #ff7300;
     box-shadow: 0vw 0.5vh 0px 2vw #ff7300;
+    transition: 3s;
 }
 
 .ScanimalLink:hover {
     color: #000000;
+    transition: 0s;
 }
 
 .projects .Scanimal .ScanimalMascot img {
@@ -651,11 +670,11 @@ aside.right Blockquote q:hover {
     justify-content: center;
     align-content: center;
     position: relative;
-    width: 80vw;
+    width: 73vw;
     height: 70vh;
     padding: 0 2vw 0 13vw;
     margin: 8vw 0 3vw 0;
-    background-color: #290606;
+    background-color: #290606c5;
 }
 
 
@@ -765,10 +784,12 @@ aside.right Blockquote q:hover {
     color: #000000;
     background-color: #ffffff;
     box-shadow: -0.5vw 0.5vh 0px 1vw #ffffff;
+    transition: 3s;
 }
 
 .Pong2dLink:hover {
     color: #9c9c9c;
+    transition: 0s;
 }
 
 
@@ -831,10 +852,12 @@ aside.right Blockquote q:hover {
     color: #000000;
     background-color: #ffffff;
     box-shadow: 0vw 0.5vh 0px 1vw #ffffff;
+    transition: 3s;
 }
 
 .Pong3dLink:hover {
     color: #9c9c9c;
+    transition: 0s;
 }
 
 
@@ -865,7 +888,7 @@ aside.right Blockquote q:hover {
     position: relative;
     width: 37vw;
     height: 52vh;
-    top: 25vh;
+    top: 23vh;
     left: 20vw;
 }
 
@@ -941,13 +964,15 @@ aside.right Blockquote q:hover {
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
-    color: #ffffff;
+    color: rgb(255, 233, 212);
     background-color: #437184;
     box-shadow: 0vw 0.5vh 0px 1.5vw #437184;
+    transition: 3s;
 }
 
 .ShaderLink:hover {
     color: #1c313a;
+    transition: 0s;
 }
 
 
@@ -1017,13 +1042,15 @@ aside.right Blockquote q:hover {
     width: 9vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
-    color: #ffffff;
+    color: rgb(255, 233, 212);
     background-color: #4d6050;
     box-shadow: -2vw 6vh 0px 3.5vw #4d6050;
+    transition: 3s;
 }
 
 .PolliwordLink:hover {
     color: #000000;
+    transition: 0s;
 }
 
 

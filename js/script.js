@@ -3,7 +3,7 @@ $(document).ready(documentReady);
 function documentReady() {
     $('.Arrowup').click(Scrollup);
     $('.projects a').click(UnderConstruction);
-    // $('.btnResume').click(ResumeUpdated);
+    $('.btnResume').click(ResumeUpdated);
 }
 
 function Scrollup(event) {
@@ -18,8 +18,8 @@ function UnderConstruction(event) {
     alert("My apoligies. The detail page of the project is underconstruction.");
 }
 
-// function ResumeUpdated(event) {
-//     event.preventDefault();
-//     console.log("Alert Resume being updated");
-//     alert("My apoligies. I am updating my resume at the moment.");
-// }
+function ResumeUpdated(event) {
+    event.preventDefault();
+    console.log("Alert Resume being updated");
+    alert("My apoligies. I am updating my resume at the moment.");
+}

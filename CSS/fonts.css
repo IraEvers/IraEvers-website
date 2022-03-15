@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
 /*font-family: 'Noto Serif SC', serif;*/
 
 @font-face {
@@ -7,4 +7,11 @@
     font-style: normal;
     font-weight: normal;
     src: url('../Fonts/MOD20.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../Fonts/AvenirLTStd-Black.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
 }

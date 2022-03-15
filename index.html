@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <title>Ira Evers // About</title>
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="icon" type="image/png" href="IntroPageImages/FaviconV2.png" />
+    <link rel="icon" type="image/png" href="./Images/Logos/Signature-LogoBackgroundBlackV 3.png" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 </head>
@@ -32,8 +32,8 @@
 
                     <aside class="left">
 
-                        <figure class="iraAboutpic">
-                            <img src="Images/ProfilePicture/profilePictureBath.jpg" alt="iraAboutpic">
+                        <figure onmouseenter="ChangeProfileColor()" onmouseout="ChangeProfileBW()" class="iraAboutpic">
+                            <img src="Images/ProfilePicture/Ira_BW.png" id="iraAboutpic" class="active">
                         </figure>
 
                         <section class="externallinksAbout">
@@ -84,7 +84,7 @@
                         </Blockquote>
 
                         <div class="buttonsPostioning">
-                            <a class="btnResume" download href="Download/Resumé_2022_March.pdf">
+                            <a class="btnResume" download href="Download/Resumé_2022_March.pdf" target="_blank" rel="noopener noreferrer">
                                 <p>Download</p>
                                 <p>Resumé</p>
                             </a>

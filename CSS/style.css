@@ -532,7 +532,7 @@ aside.right Blockquote q:hover {
     text-align: center;
     right: 20vw;
     top: 32vh;
-    width: 9vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
@@ -583,7 +583,7 @@ aside.right Blockquote q:hover {
 .Coastal .text {
     position: relative;
     width: 20vw;
-    height: 30vh;
+    height: 32.5vh;
     top: 18vh;
     background-color: #a8cfb5ea;
     box-shadow: 3vw 3.5vh 0px 3vw #a8cfb5ea;
@@ -616,13 +616,13 @@ aside.right Blockquote q:hover {
     position: relative;
     left: 25vw;
     top: 10vh;
-    width: 9vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
     color: rgb(255, 233, 212);
     background-color: rgb(97, 72, 72);
-    box-shadow: 0vw 4vh 0px 3.5vw rgb(97, 72, 72);
+    box-shadow: -1vw 4vh 0px 3.5vw rgb(97, 72, 72);
     transition: 2s;
 }
 
@@ -701,13 +701,13 @@ aside.right Blockquote q:hover {
     text-align: center;
     right: 16vw;
     top: 12vh;
-    width: 9vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
     color: rgb(255, 233, 212);
     background-color: #ff7300;
-    box-shadow: 0vw 0.5vh 0px 2vw #ff7300;
+    box-shadow: -1vw 0.5vh 0px 2vw #ff7300;
     transition: 2s;
 }
 
@@ -869,13 +869,13 @@ aside.right Blockquote q:hover {
     text-align: center;
     top: 2.5vh;
     left: 26vw;
-    width: 9vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     display: flex;
     color: rgb(255, 233, 212);
     background-color: #437184;
-    box-shadow: 0vw 0.5vh 0px 1.5vw #437184;
+    box-shadow: -1vw 0.5vh 0px 1.5vw #437184;
     transition: 2s;
 }
 
@@ -972,7 +972,7 @@ aside.right Blockquote q:hover {
     color: #ffffff;
     font-size: 17.5px;
     transition: color 2s;
-    width: 15vw;
+    width: 14vw;
 }
 
 .Pong .text2D p:hover {
@@ -986,12 +986,12 @@ aside.right Blockquote q:hover {
     text-align: center;
     right: -18.5vw;
     bottom: -8vh;
-    width: 7vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     color: #000000;
     background-color: #ffffff;
-    box-shadow: -0.5vw 0.5vh 0px 1vw #ffffff;
+    box-shadow: -1vw 0.5vh 0px 1vw #ffffff;
     transition: 2s;
 }
 
@@ -1052,14 +1052,14 @@ aside.right Blockquote q:hover {
     display: flex;
     position: relative;
     text-align: center;
-    right: -1vw;
-    width: 7vw;
+    right: -2vw;
+    width: 5vw;
     bottom: -6vh;
     font-family: 'Modern No. 20';
     font-size: 25px;
     color: #000000;
     background-color: #ffffff;
-    box-shadow: 0vw 0.5vh 0px 1vw #ffffff;
+    box-shadow: -0.75vw 0.5vh 0px 1vw #ffffff;
     transition: 2s;
 }
 
@@ -1132,12 +1132,12 @@ aside.right Blockquote q:hover {
     position: relative;
     right: 8vw;
     top: 25vh;
-    width: 9vw;
+    width: 5vw;
     font-family: 'Modern No. 20';
     font-size: 25px;
     color: rgb(255, 233, 212);
     background-color: #4d6050;
-    box-shadow: -2vw 6vh 0px 3.5vw #4d6050;
+    box-shadow: -1vw 6vh 0px 4vw #4d6050;
     transition: 2s;
 }
 

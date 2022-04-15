@@ -2,7 +2,7 @@ $(document).ready(documentReady);
 
 function documentReady() {
     $('.Arrowup').click(Scrollup);
-    $('.projects a').click(UnderConstruction);
+    // $('.projects a').click(UnderConstruction);
     // $('.btnResume').click(ResumeUpdated);
 }
 
@@ -19,7 +19,7 @@ function UnderConstruction(event) {
 }
 
 function ResumeUpdated(event) {
-    event.preventDefault();
+    // event.preventDefault();
     console.log("Alert Resume being updated");
     alert("My apoligies. I am updating my resume at the moment.");
 }
